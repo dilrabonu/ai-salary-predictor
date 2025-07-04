@@ -1,6 +1,6 @@
 # ai-salary-predictor
 
-<<<<<<< HEAD
+
 # 🔥 Global AI Salary Prediction API with FastAPI
 
 This is an end-to-end Machine Learning project that predicts salaries in the AI industry using key job features such as age, department, overtime status, job satisfaction, and more. It uses the [Global AI Job Trends and Salary Insights](https://www.kaggle.com/datasets/promptcloud/global-ai-job-trends-and-salary-insights) dataset and is deployed using **FastAPI**.
@@ -14,9 +14,7 @@ This is an end-to-end Machine Learning project that predicts salaries in the AI 
 ├── requirements.txt # Project dependencies
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -37,22 +35,16 @@ Edit
 git clone https://github.com/yourusername/ai-salary-predictor-api.git
 cd ai-salary-predictor-api
 2️⃣ Install Dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 3️⃣ Run the FastAPI App
-bash
-Copy
-Edit
+
 uvicorn main:app --reload
 4️⃣ Visit API Docs
 Navigate to http://127.0.0.1:8000/docs to test the API.
 
 🧪 Sample Request Body
-json
-Copy
-Edit
+
 {
   "Age": 29,
   "Gender": "Female",
@@ -65,9 +57,7 @@ Edit
   "YearsAtCompany": 3
 }
 📤 Sample Response
-json
-Copy
-Edit
+
 {
   "prediction": 77472.69
 }
@@ -101,6 +91,5 @@ Dilrabo Khidirova
 🔜 Add Streamlit frontend for public interaction
 
 🔜 Monitor usage with Prometheus/Grafana
-=======
-# ai-salary-predictor
->>>>>>> 966c419757c7bbe8494504a18defd24635693355
+
+
